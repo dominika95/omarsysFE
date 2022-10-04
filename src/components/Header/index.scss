@@ -14,10 +14,11 @@
     .header-button {
         align-self: center;
         color: black;
-        font-weight: bold;
         font-size: 1.5em;
         background-color: white;
         border: solid 1px grey;
-        padding: 5px 10px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
     }
 }

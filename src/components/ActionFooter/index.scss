@@ -1,0 +1,22 @@
+.action-footer {
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+    button {
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .save {
+        background-color: #5CB85C;
+    }
+
+    .delete {
+        background-color: #D9534F;
+    }
+}

@@ -1,0 +1,35 @@
+.form-plan-header {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #E3E9EC!important;
+    display: flex;
+    justify-content: space-between;
+
+    .title-header {
+        font-size: 1.5em;
+        color: #233560;
+    }
+
+    .mixed-header {
+        font-size: 1.2em;
+        color: #578BBB;
+        padding-left: 10px;
+        display: inline-block;
+
+        svg {
+            margin-right: 2px;
+        }
+    }
+
+    .add-button {
+        border-radius: 2px;
+        background-color: #5CB85C;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        display: flex;
+        align-items: center;
+    }
+}
