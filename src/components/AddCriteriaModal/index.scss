@@ -1,0 +1,27 @@
+.add-modal {
+    button {
+        border-radius:2px;
+        border:none;
+        padding: 5px;
+        color: white;
+        background-color: cornflowerblue;
+    }
+    .modal-body{
+        display: flex;
+        justify-content: space-around;
+
+        .group-update {
+            display: block;
+
+            input {
+                margin-left:5px;
+            }
+        }
+
+        .error {
+            padding-left: 2px;
+            color: red;
+            font-weight: bold;
+        }
+    }
+}

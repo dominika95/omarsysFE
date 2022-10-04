@@ -1,0 +1,17 @@
+.form-plan {
+    padding: 10px;
+
+
+    .button-row{
+        .delete-button {
+            background-color: #D9534F;
+            color: white;
+            display: flex;
+            align-items: center;
+            float: right;
+            padding: 5px 8px;
+            border-color: transparent;
+            border-radius: 2px;
+        }
+    }
+}
