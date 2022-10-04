@@ -1,0 +1,19 @@
+.app {
+    text-align: center;
+
+    .app-header {
+        text-align: left;
+        padding: 30px;
+        background-color: white;
+        box-shadow: 0 5px 5px gray;
+        color: #07AC98;
+        font-weight: bold;
+        font-size: 2em;
+    }
+
+    .form {
+        background-color: white;
+        margin: 0 30px;
+        box-shadow: 0 0 5px gray;
+    }
+}

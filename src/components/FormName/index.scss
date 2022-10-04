@@ -1,0 +1,50 @@
+.form-name {
+    padding: 30px 0px;
+
+    label {
+        padding: 10px 0;
+
+        span {
+            text-align: right;
+            font-weight: bold;
+        }
+    
+        input[type=text] {
+            border-radius: 5px;
+            border: solid 1px grey;
+            width: 50%;
+        }
+
+        input[type=checkbox] {
+            width: auto;
+        }
+    }
+
+    button {
+        background-color: #5CB85C;
+        border-radius: 5px;
+        border: solid 1px #5CB85C;
+        color: white;
+    }
+
+    @media (max-width: 768px) {
+        label {  
+            span {
+                padding: 0px;
+                text-align: left;
+                font-weight: bold;
+            }
+        
+            input[type=text] {
+                border-radius: 5px;
+                border: solid 1px grey;
+                width: 50%;
+            }
+    
+            input[type=checkbox] {
+                width: auto;
+                margin: 10px 0px;
+            }
+        }
+    }
+}
